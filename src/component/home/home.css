@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+#check {
+  display: none;
+}
+
+.checkbtn {
+  display: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 80px;
+}
+
+body {
+  height: 100vh;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+.nav {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-bottom: 30px;
+  height: 15vh;
+}
+.nav p {
+  justify-self: flex-start;
+  position: absolute;
+  left: 5vw;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list #check {
+  display: none;
+}
+
+.nav-list ul {
+  position: absolute;
+  right: 5vw;
+  display: flex;
+  list-style: none;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list .homeLink:hover {
+  cursor: pointer;
+  box-shadow: 0.2px 0.2px 5px black;
+  border-radius: 8px;
+}
+.homeLink {
+  margin: 0px 10px;
+  padding: 4px 16px;
+  box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+.nav-list .homeLink:active {
+  background-color: gainsboro;
+}
+#center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#titles {
+  /* margin-top: 150px; */
+  margin-bottom: 15px;
+  font-size: 40px;
+  /* background-color: rgb(67, 255, 255); */
+  background: linear-gradient(90deg, aqua, red, green);
+  color: transparent;
+  background-clip: text;
+}

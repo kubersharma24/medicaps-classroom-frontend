@@ -1,0 +1,11 @@
+#quiz_box{
+    border: 2px solid rgb(200, 196, 196);
+    width: 1200px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+#quiz_box:hover{
+    box-shadow: 1px 1px 10px rgb(207, 206, 206);
+}

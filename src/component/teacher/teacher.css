@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+#navbar {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  background-color: aqua;
+  justify-content: space-between;
+  /* box-shadow: 1px 1px 5px black; */
+}
+nav {
+  line-height: 40px;
+}
+
+.flex-box {
+  display: flex;
+  /* height: 50vh; */
+  width: 100%;
+}
+#left-box {
+  width: 5%;
+  /* height: 80vh; */
+}
+.inner-left-box {
+  background-color: white;
+  width: 5%;
+  /* height: 100vh; */
+  min-height: 90vh;
+  /* position: absolute; */
+  border-right: 1px solid black;
+  transition: width 0.2s;
+  overflow: hidden;
+}
+.class-item-style {
+  padding: 20px;
+  /* width: 60%; */
+  max-width: 80%;
+  min-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.inner-left-box-hover {
+  cursor: pointer;
+  width: 13%;
+  border-right: 1px solid white;
+  box-shadow: 4px 0 5px -2px #888;
+}
+
+.checkbtn {
+  display: block;
+  height: 80px;
+  text-align: left;
+  padding: 0px 30px;
+}
+
+.fontstyle {
+  font-size: 30px;
+  padding: 0;
+  text-align: left;
+}
+.homeIcon {
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 12px 10px;
+  padding-bottom: 18px;
+  /* width: 30px; */
+  height: 30px;
+  overflow: hidden;
+}
+.homeIcon #home {
+  padding-right: 20px;
+}
+.homeIcon-expand {
+  width: 200px;
+}
+.homeIcon:hover {
+  font-size: 30px;
+
+  overflow: hidden;
+
+  padding-bottom: 18px;
+  border-radius: 0 25px 25px 0;
+  /* background-color: #f3f3f3; */
+}
+
+.list-item {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.Class_details {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+}
+#Show-class {
+  display: flex;
+}
+#Show-class button {
+  /* padding: 10px 15px; */
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.App_Name{
+  font-size: 30px;
+  font-weight: bold;
+  /* color: white; */
+  padding-left: 100px;
+}

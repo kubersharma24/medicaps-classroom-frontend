@@ -1,0 +1,9 @@
+#class_box{
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 6px; 
+}
+
